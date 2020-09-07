@@ -35,7 +35,7 @@ double KroneckerDelta(int i,int j) {
 
 
 double** metric = NULL; // covariant Minkowski metric (matrix) //
-int dimension = 4; //spacetime dimension//
+int dimension; //spacetime dimension//
 
 class Minkowski {
 public:
